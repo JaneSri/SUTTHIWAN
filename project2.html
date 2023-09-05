@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Education Background </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/main2.css">
+
+    
+    </head>
+    <body>
+        <div id="container--main">
+            <a href="index.html">&#x2190; Go Back</a>
+            
+
+
+            <ul>
+                <h2>Accomplishments</h2>
+
+                <section class="card--project">
+                    <p> Successful of company’s revenue driving of main US customer up to TOP10 in 2012  </p>
+                    <p> Successful of driving Hardline Home’s (Cooking) sales and margin after Major Range Change in May, 2014 </p>
+                    <P> Seller achievement of Shopee awards in 2019 (Best deal by promotion performance of 2018, Home&Living category)</P>
+                    <P> Seller achievement of Shopee awards in 2020 (Best deal by promotion performance of 2019, Home&Living category)</P>
+                </section>
+                  
+               <section>
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script>
+    google.charts.load('current', {packages: ['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      // Define the chart to be drawn.
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Year');
+      data.addColumn('number', '%');
+      data.addRows([
+        ['2012:TOP revenue ', 12],
+        ['2014:Top sales',18],
+        ['2019:Best Performance',35],
+        ['2020:Best Performance',35]
+
+      ]);
+
+    
+
+        // Set chart options
+      var options = {'title':'My Archivement',
+                     'width':400,
+                     'height':300};
+        
+      // Instantiate and draw the chart.
+      var chart = new google.visualization.BarChart(document.getElementById('myChart'));
+      chart.draw(data, options);
+    }
+  </script>
+
+<body>
+  <!-- Identify where the chart should be drawn. -->
+  <div id="myChart" style="width:400; height:300" />
+</body>
+
+
+
+                   
+               </section>
+        
+            </ul>
+
+          
+        </div>
+    </body>
+</html>
